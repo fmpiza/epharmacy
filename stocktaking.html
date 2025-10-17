@@ -105,44 +105,43 @@
                        <img src="images/product_02.png" alt="Image" class="img-fluid">
                     </td>
                     <td class="product-name">
-                    <div class="mb-3">
+                    <div class="mt-2 mb-3">
                 
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="purpose"
-                    name="purpose"
-                    placeholder="Type a Medication.."
-                    autofocus
-                    required
-                  />
+                  <select id="largeSelect" class="form-select form-select-lg" required>
+                    <option>Click to Select</option>
+                    <option value="kilogram">Dispensing Store</option>
+                    <option value="litre">Outside Store</option>
+                    
+                    <option value="gram">Inside Store</option>
+                    
+                  </select>
                 </div>
                     </td>
-                    <td> <div class="mb-3">
-                
+                    <td>  <div class="mb-3 row">
+              
+                <div class="col-md-10">
                   <input
-                    type="text"
                     class="form-control"
-                    id="purpose"
-                    name="purpose"
-                    placeholder="Type a Medication.."
-                    autofocus
-                    required
-                  />
-                </div></td>
-                    <td>
-                      <div class="mb-3">
-                
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="purpose"
-                    name="purpose"
-                    placeholder="Type a Medication.."
-                    autofocus
+                    type="datetime-local"
+                    
+                    id="html5-datetime-local-input"
                     required
                   />
                 </div>
+              </div></td>
+                    <td>
+                      <div class="mb-3 row">
+              
+                <div class="col-md-10">
+                  <input
+                    class="form-control"
+                    type="datetime-local"
+                    
+                    id="html5-datetime-local-input"
+                    required
+                  />
+                </div>
+              </div>
                     </td>
                   
                     <td><a href="#" class="btn btn-primary height-auto btn-sm"><b>Search</b></a></td>
