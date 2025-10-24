@@ -82,19 +82,50 @@
             <form action="#" method="post">
               <div class="p-3 p-lg-5 border">
                 <div class="form-group row">
+                   <p>
+                 <div class="col-md-4">
+                    <label for="c_lname" class="text-black">Item Name <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="c_lname" name="c_lname">
+                  </div>
+               </p>
+                   <p> <div class="col-md-4">
+                    <label for="c_lname" class="text-black">Quantity <span class="text-danger">*</span></label>
+                    <input type="number" class="form-control" id="c_lname" name="c_lname">
+                  </div>
+              </p>
                  <p>
                     <div class="mt-2 mb-3">
                   <select id="largeSelect" class="form-select form-select-lg" required>
-                    <option>Store Name</option>
+                    <option>Requested From</option>
                     <option value="kilogram">Dispensing Store</option>
                     <option value="litre">Outside Store</option>
                     <option value="gram">Inside Store</option>    
                   </select>
                 </div>
                 </p>
+                    <p>
+                    <div class="mt-2 mb-3">
+                  <select id="largeSelect" class="form-select form-select-lg" required>
+                    <option>Requesting To</option>
+                    <option value="kilogram">Dispensing Store</option>
+                    <option value="litre">Outside Store</option>
+                    <option value="gram">Inside Store</option>    
+                  </select>
+                </div>
+                </p>
+                    <p>
+                    <div class="mt-2 mb-3">
+                  <select id="largeSelect" class="form-select form-select-lg" required>
+                    <option>Requesting Type</option>
+                    <option value="kilogram">Internal</option>
+                    <option value="litre">Outside</option>
+                        
+                  </select>
+                </div>
+                </p>
                  <p>
                 <div class="col-md-10">
-                    <label for="c_lname" class="text-black">Start Date <span class="text-danger">*</span></label>
+                    <label for="c_lname" class="text-black">Requisition Date <span class="text-danger">*</span></label>
                   <input
                     class="form-control"
                     type="datetime-local"
@@ -105,30 +136,9 @@
                 </div>
               </div>
                 </p>
-                <p>
-                <div class="col-md-10">
-                    <label for="c_lname" class="text-black">End Date <span class="text-danger">*</span></label>
-                  <input
-                    class="form-control"
-                    type="datetime-local"
-                    
-                    id="html5-datetime-local-input"
-                    required
-                  />
-                </div>
-              </div>
-                </p>
-                <p>
-                 <div class="col-md-4">
-                    <label for="c_lname" class="text-black">Original Quantity <span class="text-danger">*</span></label>
-                    <input type="number" class="form-control" id="c_lname" name="c_lname">
-                  </div>
-               </p>
-                <p> <div class="col-md-4">
-                    <label for="c_lname" class="text-black">Adjusted Quantity <span class="text-danger">*</span></label>
-                    <input type="number" class="form-control" id="c_lname" name="c_lname">
-                  </div>
-              </p>
+               
+               
+               
                 
                 <div class="form-group row">
                   <div class="col-lg-9">
