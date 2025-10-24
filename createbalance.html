@@ -82,31 +82,32 @@
             <form action="#" method="post">
               <div class="p-3 p-lg-5 border">
                 <div class="form-group row">
-                  <div class="col-md-4">
-                    <label for="c_fname" class="text-black">FirstName <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control" id="c_fname" name="c_fname">
-                  </div>
-                  <div class="col-md-4">
-                    <label for="c_lname" class="text-black">MiddleName <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control" id="c_lname" name="c_lname">
-                  </div> 
-                <div class="col-md-4">
-                    <label for="c_lname" class="text-black">LastName <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control" id="c_lname" name="c_lname">
-                  </div>
-                 <p>   <div class="mt-2 mb-3">
+                 <p>
+                    <div class="mt-2 mb-3">
                   <select id="largeSelect" class="form-select form-select-lg" required>
-                    <option>Sex</option>
-                    <option value="male"><h4><font size=3 color="black"> <b>Male</b></font></h4></option>
-                </form>
-                    
-                     <option value="female"><h4><font size=3 color="black"> <b>Female</b></font></h4></option>
+                    <option>Store Name</option>
+                    <option value="kilogram">Dispensing Store</option>
+                    <option value="litre">Outside Store</option>
+                    <option value="gram">Inside Store</option>    
                   </select>
-                    </div>
-                  </p>
-                  <p>
+                </div>
+                </p>
+                 <p>
                 <div class="col-md-10">
-                    <label for="c_lname" class="text-black">Date of Birth <span class="text-danger">*</span></label>
+                    <label for="c_lname" class="text-black">Start Date <span class="text-danger">*</span></label>
+                  <input
+                    class="form-control"
+                    type="datetime-local"
+                    
+                    id="html5-datetime-local-input"
+                    required
+                  />
+                </div>
+              </div>
+                </p>
+                <p>
+                <div class="col-md-10">
+                    <label for="c_lname" class="text-black">End Date <span class="text-danger">*</span></label>
                   <input
                     class="form-control"
                     type="datetime-local"
@@ -119,35 +120,18 @@
                 </p>
                 <p>
                  <div class="col-md-4">
-                    <label for="c_lname" class="text-black">Phone <span class="text-danger">*</span></label>
+                    <label for="c_lname" class="text-black">Original QNTY <span class="text-danger">*</span></label>
                     <input type="number" class="form-control" id="c_lname" name="c_lname">
                   </div>
                </p>
                 <p> <div class="col-md-4">
-                    <label for="c_lname" class="text-black">Tribe <span class="text-danger">*</span></label>
+                    <label for="c_lname" class="text-black">Adjusted QNTY <span class="text-danger">*</span></label>
                     <input type="text" class="form-control" id="c_lname" name="c_lname">
                   </div>
               </p>
-                   <p> <div class="col-md-4">
-                    <label for="c_lname" class="text-black">Region <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control" id="c_lname" name="c_lname">
-                  </div>
-              </p>
-                   <p> <div class="col-md-4">
-                    <label for="c_lname" class="text-black">Area of Residence <span class="text-danger">*</span></label>
-                    <input type="text" class="form-control" id="c_lname" name="c_lname">
-                  </div>
-              </p>
-                <p>
-                    <div class="mt-2 mb-3">
-                  <select id="largeSelect" class="form-select form-select-lg" required>
-                    <option>Main Category</option>
-                    <option value="kilogram">Insurance</option>
-                    <option value="litre">Exemption</option>
-                    <option value="gram">User Fee</option>    
-                  </select>
-                </div>
-                </p>
+                 
+                  
+                
                 <p>
         <div class="mt-2 mb-3">
                   <select id="largeSelect" class="form-select form-select-lg" required>
